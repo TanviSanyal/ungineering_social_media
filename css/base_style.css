@@ -1,0 +1,80 @@
+img.style {
+    width: 130px;
+}
+
+.logo {
+    border: solid 1px white;
+    display: block;
+    width: 99%;
+    
+}
+img {
+  display: block;
+  
+}
+.login{
+
+    border: solid 1px white;
+    display: block;
+    width: 99%;
+    border-radius: 50px;
+}
+.login::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.col {
+    border: solid 1px white;
+    width:49.5%;
+    float: left;
+    box-sizing : border-box;
+}
+p {
+    width: 130px;
+    height: 50px;
+    border: solid 2px red;
+    box-sizing: border-box;
+    padding: 20px;
+    padding-top: 13px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 5px;
+   
+}
+
+.loginb{
+    margin-left: 300px;
+    color: red;
+    
+}
+.new{
+    background: red;
+    color: white; 
+    margin-left: 38px;
+}
+.posts{
+    background-color: rgb(243,243,243);
+    
+}
+p.w1{
+    width:95%;
+    text-align: justify;
+    border: solid 1px black;
+    height: auto;
+    font-size: 20px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    margin-bottom: 20px;
+    
+}
+.footer{
+    background-color: rgb(75,75,75);
+}
+h2,h3{
+    color: white;
+}
