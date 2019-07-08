@@ -528,6 +528,7 @@ h2
     padding-left:90px;
     padding-bottom:20px;
     font-family: sans-serif;
+    position:relative;
     
 }
 .others_box_text
@@ -619,4 +620,15 @@ h2
 {
     
     color:#373737; 
+}
+.new_user_text::after
+{
+    content:"";
+    height:10px;
+    width:36%;
+    background:#313131;
+    position:absolute;
+    left:169px;
+    bottom:0;
+   border-radius:28px;
 }
