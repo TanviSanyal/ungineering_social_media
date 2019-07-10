@@ -1,41 +1,31 @@
 .registration_page
 {
-    border:1px black; 
+    border: 1px black; 
     width:100%;
     box-sizing:border-box;
     float:left;
-}
+} 
 .header
 {
     border: 1px black;
-    height:429px; 
+    height:230px; 
     width:100%;
     box-sizing:border-box;
     float:left;
 }
-.header_container
-{
-   border: 1px black;
-    height:320px; 
-    margin:auto;
-    width:770px;
-    box-sizing:border-box;
-    float:left; 
-    margin: 90px;
-   
-}
+
 .details
 {
     border: 1px black;
-    height:2000px; 
+    height:800px; 
     width:100%;
     box-sizing:border-box;
     float:left;
 }
 .footer
 {
-    border: 1px black;
-    height:500px; 
+    border:solid 1px black;
+    height:300px; 
     width:100%;
     box-sizing:border-box;
     float:left; 
@@ -46,7 +36,7 @@
     border:solid 1px silver;
     height:1998px; 
     margin:auto;
-    width:900px;
+    width:98%;
     background-color:#f1f1f1;
    
     
@@ -65,7 +55,7 @@
 }
 .new_account
 {
-    border: 1px black;
+    border:solid 1px black;
     height:12.5%; 
     width:100%;
     box-sizing:border-box;
@@ -73,7 +63,7 @@
 }
 .name_details
 {
-    border: 1px black;
+    border:solid 1px black;
     height:12.5%; 
     width:100%;
     box-sizing:border-box;
@@ -81,7 +71,7 @@
 }
 .email_details
 {
-    border: 1px black;
+    border:solid 1px black;
     height:12.5%; 
     width:100%;
     box-sizing:border-box;
@@ -89,7 +79,7 @@
 }
 .password_details
 {
-    border: 1px black;
+    border:solid 1px black;
     height:12.5%; 
     width:100%;
     box-sizing:border-box;
@@ -97,7 +87,7 @@
 }
 .confirmpassword_details
 {
-    border: 1px black;
+    border:solid 1px black;
     height:12.5%; 
     width:100%;
     box-sizing:border-box;
@@ -105,7 +95,7 @@
 }
 .account
 {
-    border:1px black;
+    border:solid 1px black;
     height:12.5%; 
     width:100%;
     box-sizing:border-box;
@@ -113,7 +103,7 @@
 }
 .others
 {
-    border: 1px black;
+    border:solid 1px black;
     height:12.5%; 
     width:100%;
     box-sizing:border-box;
@@ -121,7 +111,7 @@
 }
 .user_option1
 {
-    border: 1px black;
+    border:solid 1px black;
     height:100%; 
     width:50%;
     box-sizing:border-box;
@@ -130,7 +120,7 @@
 }
 .user_option2
 {
-    border: 1px black;
+    border:solid 1px black;
     height:100%; 
     width:50%;
     box-sizing:border-box;
@@ -138,7 +128,7 @@
 }
 .existing_user
 {
-    border: 1px black;
+    border:solid 1px black;
     height:164px; 
     margin:auto;
     width:445px;
@@ -151,7 +141,7 @@
 }
 .new_user
 {
-    border:1px black;
+    border:solid 1px black;
     height:180px; 
     margin:auto;
     width:392px;
@@ -164,7 +154,7 @@
 }
 .new_account_create
 {
- border: 1px black;
+ border:solid 1px black;
     height:223px; 
     margin:auto;
     width:897px;
@@ -179,7 +169,7 @@
 }
 .name
 {
-    border: 1px black;
+    border:solid 1px black;
     height:40%; 
     width:100%;
     box-sizing:border-box;
@@ -187,7 +177,7 @@
 }
 .name_field
 {
-    border: 1px black;
+    border:solid 1px black;
     height:60%; 
     width:100%;
     box-sizing:border-box;
@@ -195,7 +185,7 @@
 }  
 .email
 {
-    border: 1px black;
+    border:solid 1px black;
     height:40%; 
     width:100%;
     box-sizing:border-box;
@@ -203,7 +193,7 @@
 }
 .email_field
 {
-    border: 1px black;
+    border:solid 1px black;
     height:60%; 
     width:100%;
     box-sizing:border-box;
@@ -211,7 +201,7 @@
 }  
 .password
 {
-    border:1px black;
+    border:solid 1px black;
     height:40%; 
     width:100%;
     box-sizing:border-box;
@@ -219,7 +209,7 @@
 }
 .password_field
 {
-    border: 1px black;
+    border:solid 1px black;
     height:60%; 
     width:100%;
     box-sizing:border-box;
@@ -227,7 +217,7 @@
 }  
 .confirmpassword
 {
-    border: 1px black;
+    border:solid 1px black;
     height:40%; 
     width:100%;
     box-sizing:border-box;
@@ -235,7 +225,7 @@
 }
 .confirmpassword_field
 {
-    border: 1px black;
+    border:solid 1px black;
     height:60%; 
     width:100%;
     box-sizing:border-box;
@@ -244,7 +234,7 @@
 }
 .name_box
 {
-    border: 1px black;
+    border:solid 1px black;
     height:100px; 
     margin:auto;
     width:250px;
@@ -266,7 +256,7 @@
 }
 .email_box
 {
-    border: 1px black;
+    border:solid 1px black;
     height:100px; 
     margin:auto;
     width:250px;
@@ -288,7 +278,7 @@
 }
 .password_box
 {
-    border:1px black;
+    border:solid 1px black;
     height:100px; 
     margin:auto;
     width:250px;
@@ -310,7 +300,7 @@
 }
 .confirmpassword_box
 {
-    border: 1px black;
+    border:solid 1px black;
     height:100px; 
     margin:auto;
     width:450px;
@@ -343,7 +333,7 @@
 }
 .others_box
 {
-   border: 1px black;
+   border:solid 1px black;
     height:100px; 
     margin:auto;
     width:564px;
@@ -356,7 +346,7 @@
 }
 .text_about_icons
 {
-    border 1px black;
+    border:solid 1px black;
     height:30%; 
     width:100%;
     box-sizing:border-box;
@@ -365,7 +355,7 @@
 }
 .icons
 {
-    border:1px black;
+    border:solid 1px black;
     height:20%; 
     width:100%;
     box-sizing:border-box;
@@ -373,7 +363,7 @@
 }
 .text_about_queries
 {
-    border: 1px black;
+    border:solid 1px black;
     height:50%; 
     width:100%;
     box-sizing:border-box;
@@ -381,7 +371,7 @@
 }
 .text_field
 {
-    border:1px black;
+    border:solid 1px black;
     height:60px; 
     margin:auto;
     width:391px;
@@ -394,7 +384,7 @@
 }
 .icon_field1
 {
-    border: 1px black;
+    border:solid 1px black;
     height:100%; 
     width:20%;
     box-sizing:border-box;
@@ -402,7 +392,7 @@
 }
 .icon_field2
 {
-    border: 1px black;
+    border:solid 1px black;
     height:100%; 
     width:80%;
     box-sizing:border-box;
@@ -410,7 +400,7 @@
 }
 .icon1
 {
-    border:1px black;
+    border:solid 1px black;
     height:100%; 
     margin:auto;
     width:85px;
@@ -420,7 +410,7 @@
 }
 .icon2
 {
-    border: 1px black;
+    border:solid 1px black;
     height:90%; 
     margin:auto;
     width:93px;
@@ -431,7 +421,7 @@
 }
 .queries
 {
-    border: 1px black;
+    border:solid 1px black;
     height:89px; 
     margin:auto;
     width:639px;
@@ -473,7 +463,7 @@ img {
 
 .email_text
 {
-    border: 1px black;
+    border:solid 1px black;
     height:50%; 
     width:100%;
     box-sizing:border-box;
@@ -481,7 +471,7 @@ img {
 }
 .email_for_queries
 {
-    border: 1px black;
+    border:solid 1px black;
     height:50%; 
     width:100%;
     box-sizing:border-box;
@@ -542,46 +532,56 @@ h2
 }
 .logo_container
 {
-    border:  1px black;
+    border: 1px black;
     height:100%; 
-    width:35%;
+    width:34%;
     box-sizing:border-box;
     float:left;
-    padding-left:138px;
+    padding-left:58px;
 }
 .text_container
 {
     border:  1px black;
     height:100%; 
-    width:65%;
+    width:66%;
     box-sizing:border-box;
     float:left;
 }
 .text_container1
 {
     border:  1px black;
-    height:40%; 
+    height:45%; 
     width:100%;
     box-sizing:border-box;
     float:left;
+    padding-top:56px;
 }
 .text_container2
 {
     border: 1px black;
-    height:60%; 
+    height:55%; 
     width:100%;
     box-sizing:border-box;
     float:left;
-    padding-top:1px;
-    font-size:21px;
-    font-color:grey;
+    padding-bottom:30px;
 }
-.logo_text
+.logo_text1
 {
-    font-size:59px;
+    font-size:22px;
     font-weight:bold;
     line-height:1.5;
     font-family:'Open Sans',sans-serif;
+    
+    
+}
+.logo_text2
+{
+    font-size:7px;
+    font-weight:normal;
+    color:grey;
+    font-family:'Open Sans',sans-serif;
+    padding-top:30px;
+    margin-top:-30px;
     
 }
 .logo_un
@@ -591,7 +591,7 @@ h2
 }
 .logo_img
 {
-    width:96%;
+    width:98%;
 }
 .A
 {
