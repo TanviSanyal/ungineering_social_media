@@ -1,16 +1,20 @@
-img.style {
-    width: 130px;
-}
+
 
 .logo {
     border: solid 1px white;
     display: block;
     width: 99%;
+    margin-left: auto;
+    margin-right: auto;
     
 }
-img {
-  display: block;
-  
+
+.center{
+    padding-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
 }
 .login{
 
@@ -26,55 +30,124 @@ img {
 }
 .col {
     border: solid 1px white;
-    width:49.5%;
+    width:43%;
     float: left;
     box-sizing : border-box;
 }
-p {
-    width: 130px;
-    height: 50px;
-    border: solid 2px red;
+p.header {
+    width: 90%;
+    
+    border: solid 1px red;
     box-sizing: border-box;
-    padding: 20px;
-    padding-top: 13px;
+    padding-left: 20px;
+    padding-right:20px;    
+    padding-top: 5px;
+    padding-bottom: 5px;
     text-align: center;
-    font-size: 20px;
-    border-radius: 5px;
+    font-size: 17px;
+    border-radius: 3px;
+    
    
 }
 
 .loginb{
-    margin-left: 300px;
+    margin-left: 27px;
     color: red;
     
 }
 .new{
-    background: red;
+    background: rgb(240,20,60);
+    text-align: right;
+    margin-left: 35px;
     color: white; 
-    margin-left: 38px;
+    margin-right: 0px;
 }
 .posts{
     background-color: rgb(243,243,243);
+    width: 100%;
+    
     
 }
-p.w1{
+.post1{
+    width: 93%;
+    margin-left: 3%;
+    margin-right: 5%;
+    
+}
+.body_posts{
     width:95%;
-    text-align: justify;
-    border: solid 1px black;
+    text-align: left;
+    border: solid 1px rgb(160,160,160);
     height: auto;
     font-size: 20px;
     padding: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
     margin-left: auto;
     margin-right: auto;
     background-color: white;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    
     
 }
-.footer{
-    background-color: rgb(75,75,75);
+p.w1{
+    color: rgb(50,50,50);
+
 }
-h2,h3{
-    color: white;
+.foot{
+    text-align: right;
+    font-style: italic;
+    font-size: 18px;
+
+}
+p.foot{
+    color: rgb(50,50,50);
+}
+h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer{ 
+    width:100%;
+    box-sizing:border-box;
+    float:left; 
+    background-color: rgb(64,64,64);
+}
+.connectp
+{
+    font-size: 16px;
+    color:white;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.doubtsp
+{
+    font-size: 16px;
+    color:white;
+    
+    padding-top:20px;
+    padding-right: 30px;
+    text-align: right; 
+}
+.mailp{
+    font-size: 20px;
+    color:white;
+    
+    
+    padding-right: 30px;
+    text-align: right;    
+}
+.fb{
+    padding-left: 30px;
+}
+.yt{
+    padding-left:30px;
+}
+p.mailp{
+    margin-top: 7px;
+}
+p.doubtsp{
+    margin-bottom: 0px:
 }
