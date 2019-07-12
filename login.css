@@ -17,7 +17,7 @@
 .details
 {
     border: 1px black;
-    height:800px; 
+    height:610px; 
     width:100%;
     box-sizing:border-box;
     float:left;
@@ -34,7 +34,7 @@
 .registration_Details
 {
     border:solid 1px silver;
-    height:1094px; 
+    height:668px; 
     margin:auto;
     width:98%;
     background-color:#f1f1f1;
@@ -45,7 +45,7 @@
 .user_options
 {
     border-bottom:solid 1px silver;
-    height:7%; 
+    height:10%; 
     width:100%;
     box-sizing:border-box;
     float:left;
@@ -55,7 +55,7 @@
 .new_account
 {
     border: 1px black;
-    height:8.5%; 
+    height:12.5%; 
     width:100%;
     box-sizing:border-box;
     float:left; 
@@ -73,7 +73,7 @@
 .email_details
 {
     border: 1px black;
-    height:9.5%; 
+    height:14.5%; 
     width:100%;
     box-sizing:border-box;
     float:left; 
@@ -81,7 +81,7 @@
 .password_details
 {
     border: 1px black;
-    height:9.5%; 
+    height:14.5%; 
     width:100%;
     box-sizing:border-box;
     float:left; 
@@ -97,7 +97,7 @@
 .account
 {
     border: 1px black;
-    height:8.5%; 
+    height:13.5%; 
     width:100%;
     box-sizing:border-box;
     float:left;
@@ -107,7 +107,7 @@
 .others
 {
     border: 1px black;
-    height:9%; 
+    height:14%; 
     width:100%;
     box-sizing:border-box;
     float:left; 
@@ -485,16 +485,17 @@ h2
 .existing_user_text
 {
     font-size:19px;
-    color:crimson;
+    color:black;
     font-family: sans-serif;
-    text-decoration:underline;
+    position:relative;
 }
 .new_user_text
 {
     font-size:19px;
-    color:black;
+    color:crimson;
     font-family: sans-serif;
-    position:relative;
+    text-decoration:underline;
+    
     
 }
 .others_box_text
@@ -600,14 +601,14 @@ h2
     
     color:#373737; 
 }
-.new_user_text::after
+.existing_user_text::after
 {
     content:"";
     height:4px;
-    width:50%;
+    width:42%;
     background:#313131;
     position:absolute;
-    left:29%;
+    left:0%;
     bottom:2%;
     top:100%;
    border-radius:15%;
