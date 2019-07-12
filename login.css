@@ -1,33 +1,23 @@
-.login_page
+.registration_page
 {
-    border:1px black; 
+    border: 1px black; 
     width:100%;
     box-sizing:border-box;
     float:left;
-}
+} 
 .header
 {
     border: 1px black;
-    height:429px; 
+    height:155px; 
     width:100%;
     box-sizing:border-box;
     float:left;
 }
-.header_container
-{
-   border: 1px black;
-    height:320px; 
-    margin:auto;
-    width:770px;
-    box-sizing:border-box;
-    float:left; 
-    margin: 90px;
-   
-}
+
 .details
 {
     border: 1px black;
-    height:1700px; 
+    height:610px; 
     width:100%;
     box-sizing:border-box;
     float:left;
@@ -35,35 +25,34 @@
 .footer
 {
     border: 1px black;
-    height:500px; 
+    height:300px; 
     width:100%;
     box-sizing:border-box;
     float:left; 
     background-color: rgb(64,64,64);
 }
-.login_Details
+.registration_Details
 {
     border:solid 1px silver;
-    height:1998px; 
+    height:668px; 
     margin:auto;
-    width:900px;
+    width:98%;
     background-color:#f1f1f1;
-   
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
     
 }
 .user_options
 {
-    border:solid 1px silver;
-    height:12.5%; 
+    border-bottom:solid 1px silver;
+    height:10%; 
     width:100%;
     box-sizing:border-box;
     float:left;
     background-color:white; 
-    box-shadow:0px 1px 0px 1px darkgray;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
+    
 }
-.login_account
+.new_account
 {
     border: 1px black;
     height:12.5%; 
@@ -76,7 +65,7 @@
 .name_details
 {
     border: 1px black;
-    height:12.5%; 
+    height:9.5%; 
     width:100%;
     box-sizing:border-box;
     float:left; 
@@ -84,7 +73,7 @@
 .email_details
 {
     border: 1px black;
-    height:12.5%; 
+    height:14.5%; 
     width:100%;
     box-sizing:border-box;
     float:left; 
@@ -92,7 +81,7 @@
 .password_details
 {
     border: 1px black;
-    height:12.5%; 
+    height:14.5%; 
     width:100%;
     box-sizing:border-box;
     float:left; 
@@ -100,23 +89,25 @@
 .confirmpassword_details
 {
     border: 1px black;
-    height:12.5%; 
+    height:9.5%; 
     width:100%;
     box-sizing:border-box;
     float:left; 
 }
-.login
+.account
 {
-    border:1px black;
-    height:12.5%; 
+    border: 1px black;
+    height:13.5%; 
     width:100%;
     box-sizing:border-box;
-    float:left; 
+    float:left;
+    padding-top:3%;
+    padding-left:6%; 
 }
 .others
 {
     border: 1px black;
-    height:12.5%; 
+    height:14%; 
     width:100%;
     box-sizing:border-box;
     float:left; 
@@ -136,7 +127,7 @@
 }
 .user_option2
 {
-    border: 1px black;
+    border:1px black;
     height:100%; 
     width:50%;
     box-sizing:border-box;
@@ -170,10 +161,10 @@
     display:inline;
        
 }
-.login_into_account
+.new_account_create
 {
  border: 1px black;
-    height:223px; 
+    height:100%; 
     margin:auto;
     width:897px;
     box-sizing:border-box;
@@ -262,103 +253,49 @@
     padding-top:1%;
 
 }
-.name_box
-{
-    border: 1px black;
-    height:100px; 
-    margin:auto;
-    width:250px;
-    box-sizing:border-box;
-    float:left; 
-    margin-top:0px;
-    margin-left:50px;
- 
-}
+
 .input_name
 {
-    height:120px; 
+    height:83%; 
     margin:auto;
-    width:770px;
-    margin-top:0px;
-    margin-left:50px;
-    border:solid 2px crimson;
-    border-radius:10px;
+    width:92%;
+    border:solid 1px crimson;
+    border-radius:5px;
 }
-.email_box
-{
-    border: 1px black;
-    height:100px; 
-    margin:auto;
-    width:250px;
-    box-sizing:border-box;
-    float:left; 
-    margin-top:0px;
-    margin-left:50px;
- 
-}
+
 .input_email
 {
-    height:120px; 
+    height:83%; 
     margin:auto;
-    width:770px;
-    margin-top:0px;
-    margin-left:50px;
-    border:solid 2px crimson;
-    border-radius:10px;
+    width:92%;
+    border:solid 1px crimson;
+    border-radius:5px;
 }
-.password_box
-{
-    border:1px black;
-    height:100px; 
-    margin:auto;
-    width:250px;
-    box-sizing:border-box;
-    float:left; 
-    margin-top:0px;
-    margin-left:50px;
- 
-}
+
 .input_password
 {
-    height:120px; 
+   height:83%; 
     margin:auto;
-    width:770px;
-    margin-top:0px;
-    margin-left:50px;
-    border:solid 2px crimson;
-    border-radius:10px;
+    width:92%;
+    border:solid 1px crimson;
+    border-radius:5px;
 }
-.confirmpassword_box
-{
-    border: 1px black;
-    height:100px; 
-    margin:auto;
-    width:450px;
-    box-sizing:border-box;
-    float:left; 
-    margin-top:0px;
-    margin-left:50px;
- 
-}
+
 .input_confirmpassword
 {
-    height:120px; 
+    height:83%; 
     margin:auto;
-    width:770px;
-    margin-top:0px;
-    margin-left:50px;
-    border:solid 2px crimson;
-    border-radius:10px;
+    width:92%;
+    border:solid 1px crimson;
+    border-radius:5px;
 }
 .create
 {
-     height:130px; 
+    height:64%;
     margin:auto;
-    width:760px;
-    margin-top:37px;
-    margin-left:55px;
+    width:91%;
     background-color:rgb(220,20,60);
-    color:whilte;
+    border-radius:5px;
     
 }
 .others_box
@@ -366,7 +303,7 @@
    border: 1px black;
     height:100px; 
     margin:auto;
-    width:597px;
+    width:564px;
     box-sizing:border-box;
     float:left; 
     margin-top:-60px;
@@ -376,16 +313,18 @@
 }
 .text_about_icons
 {
-    border 1px black;
+    border: 1px black;
     height:30%; 
     width:100%;
     box-sizing:border-box;
     float:left;
-    display:inline;
+    padding-top:11%;
+    padding-left:8%;
+    
 }
 .icons
 {
-    border:1px black;
+    border: 1px black;
     height:20%; 
     width:100%;
     box-sizing:border-box;
@@ -401,7 +340,7 @@
 }
 .text_field
 {
-    border:1px black;
+    border: 1px black;
     height:60px; 
     margin:auto;
     width:391px;
@@ -416,21 +355,25 @@
 {
     border: 1px black;
     height:100%; 
-    width:20%;
+    width:18%;
     box-sizing:border-box;
-    float:left
+    float:left;
+    padding-top:0%;
+    padding-left:7%;
 }
 .icon_field2
 {
     border: 1px black;
     height:100%; 
-    width:80%;
+    width:82%;
     box-sizing:border-box;
-    float:left
+    float:left;
+    padding-top:0%;
+    padding-left:0%;
 }
 .icon1
 {
-    border:1px black;
+    border: 1px black;
     height:100%; 
     margin:auto;
     width:85px;
@@ -462,16 +405,14 @@
 }
 .text_for_icons
 {
-    font-size: 44px;
+    font-size: 16px;
     color:white;
     font-family: "Open Sans",sans-serif;
     
 }
-.account_login
+.create_account
 {
-    font-size: 55px;
-    padding-bottom:40px;
-    padding-left:55px;
+    font-size: 21px;
     color:#2C2C2C;
     font-family:Arial,sans-serif;
     
@@ -484,71 +425,74 @@
     width: 100%;
     
 }
-img {
+.img1 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 105%;
+  width: 96%;
+  
+}
+.img2 {
+  display: block;
+  margin-left: 1%;
+  margin-right: 1%;
+  width: 13%;
   
 }
 
 .email_text
 {
     border: 1px black;
-    height:50%; 
+    height:54%; 
     width:100%;
     box-sizing:border-box;
-    float:left
+    float:left;
+    padding-left:15%;
+    padding-top:12%;
 }
 .email_for_queries
 {
     border: 1px black;
-    height:50%; 
+    height:46%; 
     width:100%;
     box-sizing:border-box;
-    float:left
+    float:left;
+    padding-left:29%;
+    padding-top:0%;
 }
 .email_text_text
 {
-   font-size: 37px;
+   font-size: 15px;
     color:white;
-    padding-left:1px;
-    padding-top:10px;
     font-family: "Open Sans",sans-serif;
     
 }
 .email_for_queries_text
 {
-    font-size:47px;
+    font-size:18px;
     color:white;
-    padding-left:90px;
-    padding-bottom:20px;
     font-family: "Open Sans",sans-serif;
     margin-top:0%;
     
 }
 h2
 {
-    font-size: 40px;
+    font-size: 15px;
     color:#222222;
     padding-bottom:10px;
     font-family: "Open Sans",sans-serif;
 }
 .existing_user_text
 {
-    font-size:47px;
+    font-size:19px;
     color:black;
-    padding-left:90px;
-    padding-bottom:20px;
     font-family: sans-serif;
     position:relative;
 }
 .new_user_text
 {
-    font-size:47px;
+    font-size:19px;
     color:crimson;
-    padding-left:90px;
-    padding-bottom:20px;
     font-family: sans-serif;
     text-decoration:underline;
     
@@ -556,35 +500,34 @@ h2
 }
 .others_box_text
 {
-    font-size:43px;
+    font-size:17px;
     color:crimson;
-    padding-left:90px;
-    padding-bottom:20px;
     font-family: sans-serif;
     text-decoration:underline;
     margin-top:-4%;
 }
 .logo_container
 {
-    border:  1px black;
+    border:1px black;
     height:100%; 
-    width:35%;
+    width:34%;
     box-sizing:border-box;
     float:left;
-    padding-left:138px;
+    padding-left:21%;
+    
 }
 .text_container
 {
-    border:  1px black;
+    border: 1px black;
     height:100%; 
-    width:65%;
+    width:66%;
     box-sizing:border-box;
     float:left;
 }
 .text_container1
 {
     border:  1px black;
-    height:40%; 
+    height:45%; 
     width:100%;
     box-sizing:border-box;
     float:left;
@@ -593,17 +536,15 @@ h2
 .text_container2
 {
     border: 1px black;
-    height:60%; 
+    height:55%; 
     width:100%;
     box-sizing:border-box;
     float:left;
-    padding-top:1px;
-    font-size:21px;
-    font-color:grey;
+    padding-bottom:30%;
 }
-.logo_text
+.logo_text1
 {
-    font-size:59px;
+    font-size:22px;
     font-weight:bold;
     line-height:1.5;
     font-family:'Open Sans',sans-serif;
@@ -629,7 +570,8 @@ h2
 }
 .logo_img
 {
-    width:96%;
+    width:98%;
+    margin-top:-46%;
 }
 .A
 {
@@ -662,11 +604,12 @@ h2
 .existing_user_text::after
 {
     content:"";
-    height:10px;
-    width:35%;
+    height:4px;
+    width:42%;
     background:#313131;
     position:absolute;
-    left:87px;
-    bottom:0;
-   border-radius:28px;
+    left:0%;
+    bottom:2%;
+    top:100%;
+   border-radius:15%;
 }
