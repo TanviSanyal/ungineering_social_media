@@ -1,0 +1,280 @@
+.row{
+    
+    height : 2500px;
+    width : 100%;
+    
+}
+.logo {
+    border: solid 1px white;
+    display: block;
+    width: 99%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.center{
+    padding-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.row :: after{
+    content : "";
+    display : block;
+    clear : both;
+}
+
+
+
+
+.row > .row2{
+    
+    height : 100px;
+    border-bottom: 10px solid black;
+}
+
+.row > .row3{
+    
+    height : 100px;
+    background: #f1f1f1;
+     border-bottom: 10px solid black;
+}
+
+.row > .row4{
+
+    height : 1200px;
+    background: #f1f1f1;
+}
+
+.row > .row5{
+
+    height : 100px;
+    background: #f1f1f1;
+}
+
+.row > .row6{
+
+    height : 50px;
+    background: #f1f1f1;
+}
+
+
+
+.row7 > .rowc{
+
+    height : 50px;
+    font-size : 30px;
+    font-family: Arial, Helvetica, sans-serif;
+     
+}
+
+.row9 > .rowd{
+
+    height : 50px;
+    font-size : 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+     
+}
+.row9 > .rowe{
+
+    height : 50px;
+    font-size : 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+     
+}
+.rowblack
+{
+border-top: 25px black;
+}
+
+
+
+.col1 {
+
+    height: 100px;
+    float: left;
+    box-sizing : border-box;
+    width : 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size : 40px;
+    
+    
+}
+
+.col2 {
+
+    height: 100px;
+    float: left;
+    box-sizing : border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size : 30px;
+    background-color: rgb(243,243,243);
+    border-top: 3px solid black ;
+  
+    
+}
+.col3 {
+
+    height: 100px;
+    float: left;
+    box-sizing : border-box;
+    width : 8%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size : 40px;
+}
+.col5 {
+
+    height: 1200px;
+    float: left;
+    box-sizing : border-box;
+    width : 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(243,243,243);
+}
+.col6 {
+
+    height: 1200px;
+    float: left;
+    box-sizing : border-box;
+    width : 80%;
+    padding : 30px 30px 30px 30px; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size : 40px;
+    background-color: rgb(243,243,243);
+}
+
+.col7 {
+
+    float: left;
+    height : 150px;
+    box-sizing : border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.col8 {
+
+    float: left;
+    height : 150px;
+    box-sizing : border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}    
+    
+
+.row2 > .col1 {
+    width: 50%%;
+    padding : 0px 110px 20px 200px;
+}
+
+.row3 > .col2 {
+    width: 25%;
+    padding : 20px 0px 20px 40px;
+}
+
+.row3 > .col3{
+    width: 20%;
+}
+
+.row1 > .col7{
+    width:%;
+}    
+
+.row1 > .col8{
+    width:70%;
+}    
+    
+.row1 > .col8 > .rowa{
+    height : 40%;
+    padding : 30px 0px 0px 0px;
+    font-size : 40px;
+      
+    
+}    
+
+input[type=text], input[type=password] ,input[type=number] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: solid 3px #FF4500;
+  font-size : 40px;
+  
+}
+
+.updatebtn {
+  background-color: #FF4500;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 40%;
+  opacity: 0.9;
+  font-size : 40px;
+}
+
+
+.logoutbtn {
+  background-color : white;
+  border-color: #FF4500;
+  color: #FF4500;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: solid 3px #FF4500;
+  cursor: pointer;
+  width: 80%;
+  opacity: 0.9;
+  height : 70px;
+  font-size : 30px;
+  
+}
+.footer{ 
+    width:100%;
+    box-sizing:border-box;
+    float:left; 
+    background-color: rgb(64,64,64);
+}
+.connectp
+{
+    font-size: 16px;
+    color:white;
+    padding-top: 20px;
+    padding-left: 180px;
+}
+.doubtsp
+{
+    font-size: 16px;
+    color:white;
+    
+    padding-top:20px;
+    padding-right: 30px;
+    text-align: right; 
+     padding-right: 200px;
+
+}
+.mailp{
+    font-size: 20px;
+    color:white;
+    
+    
+    padding-right: 30px;
+    text-align: right;    
+}
+.fb{
+    padding-left: 150px;
+}
+.yt{
+    padding-left:150px;
+}
+p.mailp{
+    margin-top: 7px;
+    padding-right: 200px;
+}
+p.doubtsp{
+    margin-bottom: 0px:
+      
