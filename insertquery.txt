@@ -1,0 +1,5 @@
+INSERT INTO users VALUES
+    (3,"Adil","123456","ad@somemail","rcc",900221);
+    
+INSERT INTO posts (id,user_id,status) VALUES
+    (1,2,"A quick brown fox jumps over the lazy dog"

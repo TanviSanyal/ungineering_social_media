@@ -1,4 +1,39 @@
+<?php
+    session_start();
+?>
+
 <html>
+<?php
+
+    $hostname = "localhost";
+    $username = "root";
+    $db_password = "123456";
+    $database = "social_media";
+    $conn = mysqli_connect($hostname, $username, $db_password, $database);
+    if (!$conn) {
+        die("Connection failed: " . mysqli_connect_error());
+    }
+    
+    $sql = "SELECT * FROM posts";
+    $sql2 = "SELECT
+            *
+            FROM
+            users
+            INNER JOIN
+            posts  
+            ON
+            users.id = user_id";
+    $result2 = mysqli_query($conn, $sql2);            
+    $result = mysqli_query($conn, $sql);        
+    if (!$result) 
+    {
+        die("Error: " . $sql . "<br>" . mysqli_error($conn));
+    }
+        if (!$result2) 
+    {
+        die("Error: " . $sql . "<br>" . mysqli_error($conn));
+    }
+?>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel = "stylesheet" href = "css/base_style.css"/>
@@ -20,39 +55,27 @@
              
         </div>
         <div class="posts">
+          <?php
+            while ($row=mysqli_fetch_array($result) AND $row2=mysqli_fetch_array($result2))
+            {
+          ?>        
             <div class="post1">
-               
+     
                 <div class="body_posts">
-                    <h3>Name</h3>
-                    <p class="w1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of   type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
-                    <p class="foot">Time : 24:40 Hrs IST  | 26 Dec</p>
+                    <h4><?php   echo $row2['name'];     ?></h4>
+                    <p class="w1"><?php     echo $row['status'];                           ?>  </p>
+                    <p class="foot"><?php   echo $row['time'];                ?></p>
         
                 </div>
             </div>    
-        
-        
-            <div class="post1">
-                
-                <div class="body_posts">
-                    <h3>Name</h3>
-                    <p class="w1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of   type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
-                    <p class="foot">Time : 24:40 Hrs IST  | 26 Dec</p>
-        
-                </div>
-            </div>    
-        
-        
-            <div class="post1">
-                
-                <div class="body_posts">
-                    <h3>Name</h3>
-                    <p class="w1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of   type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
-                    <p class="foot">Time : 24:40 Hrs IST  | 26 Dec</p>
-        
-                </div>
-            </div>
              
-        </div>        
+          
+        <?php 
+            }
+            mysqli_close($conn);	
+        
+        ?>
+        </div>      
         <div class="footer">
             <div class="connect"><p class= "connectp">Connect with us at</p></div>
             <div class="logos">
@@ -66,4 +89,4 @@
 
 
     </body>
-    
+</html>    
