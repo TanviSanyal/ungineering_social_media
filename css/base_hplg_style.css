@@ -61,7 +61,28 @@ p.header {
     color: red;
 }
 .write{
-    padding-top: 10%;
+    padding-top: 14%;
+    padding-left: 3%;
+}
+.input_status{
+    margin-left: 3%;
+    width: 95% ;
+    height: 22%;
+}
+.post_button{
+    margin-right: 2%;
+    margin-left: 60%;
+    text-align: right;
+    border: solid 1px red;
+}
+p.post_button{
+    
+    text-align: center;
+    padding-top: 4px;
+    background-color: rgb(240,20,60);
+    padding-bottom: 5px;
+    color: white;
+    border-radius: 3px;
 }
 .posts{
     background-color: rgb(243,243,243);
