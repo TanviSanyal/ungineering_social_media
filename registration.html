@@ -4,7 +4,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
-        <form method = "post" action ="registration.php" name="form">
+        <form method = "post" action ="registration.php" name="form" class="registration_form" id="registration_form">
 
         <div class="registration_page">
             <div class="header">
@@ -34,7 +34,7 @@
                 <div class="registration_details">
                     <div class="user_options">
                         <div class="user_option1">
-                            <p class="existing_user_text"><b>Existing User</b></p>
+                            <a href="/login.html" class="existing_user_text"><b>Existing User</b></a>
                         </div>
                         <div class="user_option2">
                             <p class="new_user_text"><b>New User</b></p>
@@ -48,7 +48,7 @@
                             <h2> Name </h2>
                         </div>
                         <div class="name_field">
-                            <input type = "text" name="name" class="input_name" id="name"/>
+                            <input type = "text" name="name" class="input_name" id="name" required />
                         </div>
                     </div> 
                     <div class="email_details">
@@ -56,7 +56,7 @@
                             <h2> Email </h2>
                         </div>
                         <div class="email_field">
-                            <input type = "text" name="email" class="input_email" id="email"/>
+                            <input type = "text" name="email" class="input_email" id="email" required/>
                         </div>
                     </div> 
                     <div class="password_details">
@@ -64,7 +64,7 @@
                             <h2> Password </h2>
                         </div>
                         <div class="password_field">
-                            <input type = "text" name="password" class="input_password" id="password"/> 
+                            <input type = "password" name="password" class="input_password" id="password" required /> 
                         </div>
                     </div>
                     <div class="confirmpassword_details">
@@ -72,9 +72,13 @@
                             <h2> Confirm Password </h2>
                         </div>
                         <div class="confirmpassword_field">
-                            <input type = "text" name="confirmpassword" class="input_confirmpassword" id="confirmpassword"/> 
+                            <input type = "password" name="confirmpassword" class="input_confirmpassword" id="confirmpassword" required/> 
                         </div>
-                    </div>
+                        <div id="msg"></div>
+                     </div>
+                            
+                        
+                    
                     <div class="account">
                         <input type ="submit" name ="submit" value="Create Account" id="create_account_submit" class="create" style="color:white;font-size:17px;font-weight:bold" />
                     </div>
@@ -107,5 +111,8 @@
             
         </div>
         </form>
+        <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="js/registration.js"></script>
+
     </body>
 </html>
