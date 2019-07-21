@@ -1,6 +1,4 @@
-<?php
-    session_start();
-?>
+
 
 
 <html>
@@ -15,7 +13,7 @@
         die("Connection failed: " . mysqli_connect_error());
     }
     
-    $sql = "SELECT * FROM posts";
+    //$sql = "SELECT * FROM posts";
     $sql2 = "SELECT
             *
             FROM
@@ -23,14 +21,15 @@
             INNER JOIN
             posts  
             ON
-            users.id = user_id";
+            users.id = posts.user_id";
     $result2 = mysqli_query($conn, $sql2);            
-    $result = mysqli_query($conn, $sql);        
-    if (!$result) 
+//    $result = mysqli_query($conn, $sql);        
+/*    if (!$result) 
     {
         die("Error: " . $sql . "<br>" . mysqli_error($conn));
     }
-        if (!$result2) 
+*/
+    if (!$result2) 
     {
         die("Error: " . $sql . "<br>" . mysqli_error($conn));
     }
@@ -71,15 +70,15 @@
         
             </div>
             <?php
-                while ($row=mysqli_fetch_array($result) AND $row2=mysqli_fetch_array($result2))
+                while ($row2=mysqli_fetch_array($result2))
                 {
             ?> 
             <div class="post1">
                
                 <div class="body_posts">
                      <h4><?php   echo $row2['name'];     ?></h4>
-                    <p class="w1"><?php     echo $row['status'];                           ?>  </p>
-                    <p class="foot"><?php   echo $row['time'];                ?></p>
+                    <p class="w1"><?php     echo $row2['status'];                           ?>  </p>
+                    <p class="foot"><?php   echo $row2['time'];                ?></p>
         
                 </div>
             </div>    
@@ -100,6 +99,7 @@
         </div>
 
 
-
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/post.js"></script>
     </body>
 </html>
