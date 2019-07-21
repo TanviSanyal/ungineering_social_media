@@ -1,19 +1,15 @@
  
 $(document).ready(function () {
-    $("#confirmpassword").keyup(function(){
-        if ($("#password").val() != $("#confirmpassword").val()) {
-            $("#msg").text("Password do not match");
-                 
-        } else{
-            
-                
-        }
-    });
     
     $('#registration_form').submit(function() {
         var url = "registration.php";
         var data = $('#registration_form').serialize();
-
+         if ($("#password").val() != $("#confirmpassword").val()) {
+            alert("Password do not match");
+            return false;
+      
+        } 
+       
         $.ajax({
             url: url,
             data: data,

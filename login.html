@@ -5,7 +5,7 @@
     </head>
     <body>
     
-                <form method = "post" action ="login.php" name="login_form">
+                <form method = "post" action ="login.php" name="login_form" id="login_form">
         <div class="registration_page">
             <div class="header">
                 <div class="logo_container">
@@ -63,7 +63,7 @@
                         <input type ="submit" name ="submit" value="Log-in" id="log_in" class="create" style="color:white;font-size:17px;font-weight:bold" />
                     </div>
                     <div class="others">
-                        <p class="others_box_text">New User, Create Account</p>
+                        <a href="/registration.html"><p class="others_box_text">New User, Create Account</p></a>
                     </div>
                 </div>
             </div>
@@ -88,8 +88,8 @@
                     </div>
                 </div>
             </div>
-            
-        </div>
+        </form>
+        <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
         <script type="text/javascript" src="js/login.js"></script>
     </body>
 </html>

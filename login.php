@@ -37,12 +37,14 @@
     if ($flag == 0) {
         $response['success'] = false;
         $response['message'] = "Login failed";
+        echo json_encode($response);
     } else {
         $response['success'] = true;
-        $response['message'] = "Hello " . $row['name'];
+        $response['message'] = "Hello";
+        echo json_encode($response);
     }
 
-    echo json_encode($response);
+    
     mysqli_close($conn);
 ?>
 
