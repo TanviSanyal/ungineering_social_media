@@ -43,7 +43,7 @@
         echo json_encode($response);
     } else {
         $response['success'] = true;
-        $response['message'] = "Hello";
+        $response['message'] = "Hello ".$n;
         echo json_encode($response);
          //echo "hello ". $n ."<br/>";
         $_SESSION['id']=$row['id'];
@@ -51,9 +51,10 @@
         
         ?>
         
-        <a href="base_hplg.php">click here</a>
-    }
+       
+    
         <?php
+     }
     
     mysqli_close($conn);
 ?>
