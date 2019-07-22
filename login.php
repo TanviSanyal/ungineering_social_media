@@ -1,4 +1,5 @@
 <?php
+    session_start();
     $hostname = "localhost";
     $username = "root";
     $db_password = "123456";
@@ -27,9 +28,11 @@
     $pass = $_POST['password'];
 
     $flag = 0;
+    $n;
     while ($row=mysqli_fetch_array($result)) {
         if ($email == $row['email'] && $pass == $row['password']) {
             $flag = 1;
+            $n=$row['name'];
             break;
         }
     }
@@ -42,8 +45,15 @@
         $response['success'] = true;
         $response['message'] = "Hello";
         echo json_encode($response);
+         //echo "hello ". $n ."<br/>";
+        $_SESSION['id']=$row['id'];
+        $_SESSION['name']=$row['name'];
+        
+        ?>
+        
+        <a href="base_hplg.php">click here</a>
     }
-
+        <?php
     
     mysqli_close($conn);
 ?>

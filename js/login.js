@@ -19,7 +19,7 @@ var login_success = function (response) {
 
     if (response.success) {
         alert(response.message);
-        window.location.href = "base.html";
+        
     } else {
         alert(response.message);
     }
