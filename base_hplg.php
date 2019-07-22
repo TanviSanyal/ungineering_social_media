@@ -22,7 +22,8 @@
             INNER JOIN
             posts  
             ON
-            users.id = posts.user_id";
+            users.id = posts.user_id
+            ORDER BY time DESC";
     $result2 = mysqli_query($conn, $sql2);            
 //    $result = mysqli_query($conn, $sql);        
 /*    if (!$result) 
