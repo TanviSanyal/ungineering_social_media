@@ -1,5 +1,6 @@
-
-
+<?php
+    session_start();
+?>
 
 <html>
 <?php
@@ -58,7 +59,10 @@
         
         
         <div class="posts">
-     
+        <?php
+            if(isset($_SESSION['id']))
+            {
+            ?>
             <div class="create_post">
                 <div class="write"><h3>Write something here </h3></div>
                 <div class="status_box">
@@ -70,6 +74,7 @@
         
             </div>
             <?php
+            }
                 while ($row2=mysqli_fetch_array($result2))
                 {
             ?> 
