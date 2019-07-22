@@ -23,7 +23,7 @@ var post_success = function (response) {
     response = JSON.parse(response);
 
     if (response.success) {
-        $(".body_posts").html();
+        window.location.href="base_hplg.php";    
     } else {
         alert(response.message);
     }
